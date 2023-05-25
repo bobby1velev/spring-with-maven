@@ -51,7 +51,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh 'docker container rm -f maven-app || true'
-                sh 'docker run -d -p 8091:8080 --name=maven-app ${IMAGE_NAME}'
+                sh 'docker run -d -p 5000:8080 --name=maven-app ${IMAGE_NAME}'
             }
         }
     }
