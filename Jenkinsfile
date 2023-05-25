@@ -5,7 +5,7 @@ pipeline {
 
     tools {
         nodejs 'nodejs'
-        maven 'maven-default'
+        maven 'maven'
         dockerTool 'docker-default'
     }
 
