@@ -22,3 +22,6 @@ Started by event from 172.17.0.4 ⇒ http://localhost:8080/github-webhook/ on Tu
 
 You have 1 hour. ChatGPT is forbidden, Google is not. Good Luck ! :)
 
+changing readme to start autopush
+
+
