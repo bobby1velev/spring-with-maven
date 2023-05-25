@@ -20,7 +20,7 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
+        stage('Clone Repo') {
             steps {
                 git branch: 'main', url: 'https://github.com/bobby1velev/spring-with-maven.git'
 
